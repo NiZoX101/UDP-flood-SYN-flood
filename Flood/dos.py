@@ -85,13 +85,9 @@ test = input()
 if test == "n":
     exit(0)
 ip = str(input(" Host/Ip:"))
-#ip='192.168.0.110'
 port = int(input(" Port:"))
-#port=80
 choice = str(input(" UDP(y/n):"))
-#choice='y'
 threads = int(input(" Threads:"))
-#threads=4
 
 if choice=='y':
     check=check_udp()

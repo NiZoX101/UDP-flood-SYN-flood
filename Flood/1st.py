@@ -2,7 +2,7 @@ import sys
 from socket import *
 from keyboard import *
 import time
-ip='192.168.0.110'
+ip=''
 port=80
 bufsize=1024
 
